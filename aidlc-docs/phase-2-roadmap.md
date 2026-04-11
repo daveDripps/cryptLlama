@@ -14,6 +14,7 @@ Before starting Phase 2, conduct an elaboration session to define:
 
 ### Features
 - [ ] **GUI Application**: Desktop or web interface for non-technical users
+- [ ] **Windows Desktop Interface**: Native Windows desktop app with drag-and-drop encryption
 - [ ] **Password Manager Integration**: Store/retrieve passwords securely
 - [ ] **Batch Processing**: Encrypt/decrypt multiple files at once
 - [ ] **Key Sharing**: Securely share encryption keys with others
