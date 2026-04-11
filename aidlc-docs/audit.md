@@ -1,5 +1,43 @@
 # AI-DLC Audit Log
 
+## CONSTRUCTION - Unit 1: Functional Design (Plan)
+**Timestamp**: 2026-04-11T02:00:00Z
+**User Input**: "yes"
+**AI Response**: Proceeding to Unit 1 Functional Design. Created plan with 4 questions for user input: Argon2id parameters, buffer size, key encoding format, GCM auth tag handling.
+**Context**: Unit 1 Functional Design Part 1 — Plan created and presented for approval.
+
+---
+
+## CONSTRUCTION - Unit 1: Code Generation Complete
+**Timestamp**: 2026-04-11T02:45:00Z
+**User Input**: "next"
+**AI Response**: Code generation executed. Build passed locally. Branch pushed and PR created.
+**Context**: Unit 1 Code Generation Part 2 — Complete. PR: https://github.com/daveDripps/cryptLlama/pull/1
+
+---
+---
+
+## CONSTRUCTION - Unit 1: Code Generation Plan Approved
+**Timestamp**: 2026-04-11T02:30:00Z
+**User Input**: "next"
+**AI Response**: Plan approved including Step 14 (push + PR). Build must pass locally before push. Executing code generation.
+**Context**: Unit 1 Code Generation Part 2 — Generation starting. Will build locally, then push and create PR.
+
+---
+---
+---
+
+## CONSTRUCTION - Unit 1: Tooling Added
+**Timestamp**: 2026-04-11T02:15:00Z
+**User Input**: "Full suite" (selected Checkstyle + SpotBugs + JaCoCo + Error Prone)
+**AI Response**: Added recommended developer tools to tech-stack-decisions.md and AGENTS.md. Tools: Checkstyle (style), SpotBugs (bugs), JaCoCo (coverage), Error Prone (analysis).
+**Context**: Tooling report added to NFR requirements. AGENTS.md updated with tool commands.
+
+---
+---
+
+
+
 ## CONSTRUCTION - Unit 0: Code Generation Plan Approval
 **Timestamp**: 2026-04-11T01:00:00Z
 **User Input**: "okay proceed with this :)"

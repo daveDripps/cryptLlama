@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'application'
     id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'jacoco'
 }
 
 java {
@@ -15,6 +16,7 @@ repositories {
 
 dependencies {
     implementation 'org.bouncycastle:bcprov-jdk18on:1.78.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
 }
 
 application {
@@ -28,4 +30,15 @@ tasks.shadowJar {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
+}
+
+test {
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    reports {
+        xml.required = true
+    }
 }
