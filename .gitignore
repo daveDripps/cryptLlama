@@ -1,0 +1,26 @@
+# AI-DLC
+/.AiDLC/
+
+# IDE
+/.idea/
+/cryptLlama.iml
+/CLAUDE.md
+.vscode/
+
+# Gradle
+.gradle/
+build/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive
+*.keystore
+*.jks
