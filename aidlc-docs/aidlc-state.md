@@ -47,6 +47,8 @@
 - [x] CONSTRUCTION - Unit 1: Functional Design — EXECUTE
 - [x] CONSTRUCTION - Unit 1: NFR Requirements — EXECUTE
 - [x] CONSTRUCTION - Unit 1: NFR Design — EXECUTE
+- [x] CONSTRUCTION - Unit 1: Code Generation — EXECUTE
+- [ ] CONSTRUCTION - Unit 1: PR → main (pending approval)
 - [ ] CONSTRUCTION - Unit 1: Functional Design — EXECUTE
 - [ ] CONSTRUCTION - Unit 1: NFR Requirements — EXECUTE
 - [ ] CONSTRUCTION - Unit 1: NFR Design — EXECUTE

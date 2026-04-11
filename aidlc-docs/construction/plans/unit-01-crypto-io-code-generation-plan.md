@@ -61,9 +61,9 @@
 - [x] Create markdown summary in `aidlc-docs/construction/unit-01-crypto-io/code/`
 
 ### Step 14: Push Branch and Create PR
-- [ ] Push `feature/unit-01-crypto-io` branch to remote
-- [ ] Create PR from `feature/unit-01-crypto-io` → `main`
-- [ ] Provide PR link for review
+- [x] Push `feature/unit-01-crypto-io` branch to remote
+- [x] Create PR from `feature/unit-01-crypto-io` → `main`
+- [x] Provide PR link for review
 
 ## Project Structure
 ```

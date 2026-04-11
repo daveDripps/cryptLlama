@@ -4,7 +4,7 @@
 **LlamaCrypt** — Java 21 CLI file encryption app using AES-256-GCM + Argon2id.
 
 ## Stack
-- **Language**: Java 17
+- **Language**: Java 21
 - **Build**: Gradle (Groovy DSL) — `.gradle` files in project root
 - **External dep**: `bcprov-jdk18on` (Bouncy Castle, exact pinned version) for Argon2id
 - **CLI command**: `lcrypt` (`java -jar lcrypt.jar [sourcefile] [password]`)
@@ -59,7 +59,7 @@
 | Error Prone | Static analysis | Included in `./gradlew build` |
 
 ## Required Setup
-- Java 17 JDK (e.g., [Adoptium](https://adoptium.net/))
+- Java 21 JDK (e.g., [Adoptium](https://adoptium.net/))
 - Gradle 8.x (or use wrapper: `./gradlew`)
 
 ## Security
