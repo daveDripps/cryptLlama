@@ -36,6 +36,10 @@ Before starting Phase 2, conduct an elaboration session to define:
 - [ ] **API Documentation**: For library usage
 - [ ] **Video Tutorials**: How-to guides for non-technical users
 
+## Testing
+- [ ] **Cucumber/Scenario Testing**: BDD-style acceptance tests using Gherkin scenarios
+- [ ] **GUI Testing**: Automated UI testing if GUI is implemented
+
 ---
 
 *To be discussed in elaboration session*
