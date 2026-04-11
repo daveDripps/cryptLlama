@@ -44,6 +44,9 @@
 - [x] INCEPTION - Application Design — EXECUTE
 - [x] INCEPTION - Units Generation — EXECUTE
 - [x] CONSTRUCTION - Unit 0: Repo & CI/CD Setup — EXECUTE
+- [x] CONSTRUCTION - Unit 1: Functional Design — EXECUTE
+- [x] CONSTRUCTION - Unit 1: NFR Requirements — EXECUTE
+- [x] CONSTRUCTION - Unit 1: NFR Design — EXECUTE
 - [ ] CONSTRUCTION - Unit 1: Functional Design — EXECUTE
 - [ ] CONSTRUCTION - Unit 1: NFR Requirements — EXECUTE
 - [ ] CONSTRUCTION - Unit 1: NFR Design — EXECUTE
