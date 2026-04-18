@@ -42,13 +42,20 @@
 
 ## Build Commands (after Unit 0)
 ```bash
-./gradlew build        # compile + test
-./gradlew test         # run tests
+./gradlew build        # compile + test (excludes e2e tests)
+./gradlew test         # run unit tests only
 ./gradlew jar          # create distributable
-./gradlew check        # run all checks (checkstyle + spotbugs + tests)
-./gradlew checkstyleMain    # style check main sources
-./gradlew spotbugsMain      # bug detection on main sources
+./gradlew e2e         # end-to-end test (run before release/push to repo)
+./gradlew check        # run all checks
 ```
+
+## End-to-End (E2E) Testing
+- **When to run**: Before pushing to `main`/repo / before release
+- **When NOT to run**: Regular development (excluded from `./gradlew build`)
+- **What it tests**: Creates a test file → encrypts it → decrypts it → verifies content matches
+- **Run command**: `./gradlew e2e`
+- **Location**: `src/test/java/com/llamacrypt/e2e/`
+- **Will be added to roadmap**: Make failing e2e test block push in future
 
 ## Recommended Tools
 | Tool | Purpose | Run |
