@@ -35,6 +35,13 @@ tasks.withType(JavaCompile).configureEach {
 test {
     useJUnitPlatform()
     finalizedBy jacocoTestReport
+    exclude '**/e2e/**'
+}
+
+task e2e(type: Test) {
+    useJUnitPlatform()
+    include '**/e2e/**'
+    finalizedBy jacocoTestReport
 }
 
 jacocoTestReport {
